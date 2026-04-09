@@ -1,3 +1,26 @@
+# AWS credentials
+*.pem
+*.key
+*.env
+*.tfvars
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Node / Python / other local files
+node_modules/
+__pycache__/
+
+# IDE / system files
+*.swp
+*.DS_Store
+.vscode/
+.idea/
+
+# END OF MY OWN
+
 # Logs
 logs
 *.log
